@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Nikol Klus",
+        "number": 1,
+        "gender": "f",
+        "img": "1.png"
+    },
+    {
+        "name": "Kal Peterson",
+        "number": 2,
+        "gender": "m",
+        "img": "2.png"
+    },
+    {
+        "name": "Klim Lukason",
+        "number": 3,
+        "gender": "m",
+        "img": "3.png"
+    },
+    {
+        "name": "Cabalia John",
+        "number": 4,
+        "gender": "f",
+        "img": "4.png"
+    },
+    {
+        "name": "Ruzin Humenc",
+        "number": 5,
+        "gender": "f",
+        "img": "5.png"
+    },
+    {
+        "name": "Jurij Blazov",
+        "number": 6,
+        "gender": "m",
+        "img": "6.png"
+    },
+    {
+        "name": "Lipa Kamenica",
+        "number": 7,
+        "gender": "f",
+        "img": "7.png"
+    },
+    {
+        "name": "Vrab Zdenopoulos",
+        "number": 8,
+        "gender": "m",
+        "img": "8.png"
+    },
+    {
+        "name": "Pezin Polosladky",
+        "number": 9,
+        "gender": "m",
+        "img": "9.png"
+    },
+    {
+        "name": "Kate Kloptan",
+        "number": 10,
+        "gender": "f",
+        "img": "10.png"
+    },
+    {
+        "name": "Boksov da Silva",
+        "number": 11,
+        "gender": "m",
+        "img": "11.png"
+    },
+    {
+        "name": "Urban Towers",
+        "number": 12,
+        "gender": "m",
+        "img": "12.png"
+    },
+    {
+        "name": "Martin Reisstadter",
+        "number": 13,
+        "gender": "m",
+        "img": "13.png"
+    },
+    {
+        "name": "Dub Jasen",
+        "number": 14,
+        "gender": "m",
+        "img": "14.png"
+    },
+    {
+        "name": "Jan Boldigan",
+        "number": 15,
+        "gender": "m",
+        "img": "15.png"
+    },
+    {
+        "name": "Maria Rohacka",
+        "number": 16,
+        "gender": "f",
+        "img": "16.png"
+    },
+    {
+        "name": "Anna Green",
+        "number": 17,
+        "gender": "f",
+        "img": null
+    },
+    {
+        "name": "George Janosik",
+        "number": 18,
+        "gender": "m",
+        "img": null
+    }
+]
