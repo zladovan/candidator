@@ -115,3 +115,9 @@ Silhouette images needs:
 You can specify path where images will be saved and reused if somebody requests same combination of candidates again. Default path is `/tmp/candidator/render` directory and can be changed with configuration attribute `out_path`.
 
 >When running `example.php` you can force regeneration of images with adding request parameter `force=1`, e.g. `http://localhost:8000/example.php?nrs=1-2-10-14&force=1`.
+
+## Credits
+
+Images of candidates were [designed by macrovector / Freepik](https://www.freepik.com/macrovector).
+
+Font `junegull` used in background image and generated text was taken from [1001freefonts.com](https://www.1001freefonts.com/junegull.font).
