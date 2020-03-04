@@ -35,46 +35,52 @@ If you do not have PHP installed you can build and run docker image
 
 In the simplest case you can serve candidator with following code
 
-    <?php
-        require 'candidator.php';
-        (new Candidator())->serve();
-    ?>
+```php
+<?php
+    require 'candidator.php';
+    (new Candidator())->serve();
+?>
+```
 
 >Beside `candidator.php` you need folders `lib` and `assets`.
 
 If you would like to change some configuration use code similar to following
 
-    <?php
-        require 'candidator.php';
-        
-        // Create
-        $gen = new Candidator();
+```php
+<?php
+    require 'candidator.php';
+    
+    // Create
+    $gen = new Candidator();
 
-        // Configure
-        $gen->out_path = '/tmp/candidator/render';
-        $gen->images_root = './assets/candidates';
-        $gen->no_img_path_male = './assets/silhouette-male.png';
-        $gen->no_img_path_female = './assets/silhouette-female.png';
-        $gen->c_data_path = './assets/candidates.json';
+    // Configure
+    $gen->out_path = '/tmp/candidator/render';
+    $gen->images_root = './assets/candidates';
+    $gen->no_img_path_male = './assets/silhouette-male.png';
+    $gen->no_img_path_female = './assets/silhouette-female.png';
+    $gen->c_data_path = './assets/candidates.json';
 
-        // Serve
-        $gen->serve();
-    ?>
+    // Serve
+    $gen->serve();
+?>
+```
 
 If you would like to just generate image you can use code similar to following
 
-    <?php
-        require 'candidator.php';
+```php
+<?php
+    require 'candidator.php';
 
-        // Create
-        $gen = new Candidator();
+    // Create
+    $gen = new Candidator();
 
-        // Get input numbers
-        $numbers = array(1, 2, 10, 14);
+    // Get input numbers
+    $numbers = array(1, 2, 10, 14);
 
-        // Generate image
-        $image = $gen->generate($numbers);
-    ?>
+    // Generate image
+    $image = $gen->generate($numbers);
+?>
+```
 
 ## How to customize
 
