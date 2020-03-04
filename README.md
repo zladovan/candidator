@@ -121,3 +121,5 @@ You can specify path where images will be saved and reused if somebody requests 
 Images of candidates were [designed by macrovector / Freepik](https://www.freepik.com/macrovector).
 
 Font `junegull` used in background image and generated text was taken from [1001freefonts.com](https://www.1001freefonts.com/junegull.font).
+
+For drawing nice circles with antialiasing [Ulrich Mierendorff's library](http://www.ulrichmierendorff.com/software/antialiased_arcs.html) was used.
